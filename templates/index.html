@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>suggestmyquote.com</title>
+        <!-- own css -->
+        <link rel="stylesheet" href="/media/css/style.css" type="text/css" media="screen" charset="utf-8"0>
+
+        <!-- jquery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- own js -->
+        <script src="/media/js/behavior.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+
+    <body>
+        <div id="content">
+            <p><a href="/" class="logo">suggestmyquote</a>.com<span class="beta"> beta</span>
+            <p class="big quote">"{{ quote }}"</p>
+            <p class="author">{{ author }}</p>
+        </div>
+
+        <ul class="social">
+            <li>
+                <div id="fb-root"></div>
+                <div class="fb-like" data-href="http://www.facebook.com/suggestmyquote"
+                    data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"
+                    data-font="arial">
+                </div>
+            </li>
+
+            <li>
+                <sub>
+                <a href="https://twitter.com/share" class="twitter-share-button"
+                    data-url="http://www.suggestmyquote.com" data-text="Think about a quote -&gt;"
+                    data-via="c4th0d3r4y">Tweet
+                </a>
+                </sub>
+            </li>
+        </ul>
+
+    </body>
+</html>

@@ -1,0 +1,56 @@
+html {
+    font-family: arial;
+    color: #aaa;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#content {
+    margin: 10% 0 0 0;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4ea022;
+    background-color: #66c433;
+    padding: 10px 15px 10px 15px;
+}
+
+.big {
+    font-size: 50px;
+}
+
+ul.social {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul.social li {
+    display: inline;
+}
+
+.quote {
+    padding: 5px;
+    font-family: "Times New Roman"
+    font-style: italic;
+    font-weight: bold;
+    color: #555;
+}
+
+.author {
+    text-align: center;
+    margin-top: -50px;
+    font-size: 20px;
+    color: #bbb;
+}
+
+.beta {
+    font-size: 10px;
+    vertical-align: super;
+}
+
