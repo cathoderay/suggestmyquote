@@ -27,7 +27,7 @@ html {
 ul.social {
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: right;
 }
 
 ul.social li {
@@ -35,7 +35,7 @@ ul.social li {
 }
 
 .quote {
-    padding: 5px;
+    padding: 10px;
     font-family: "Times New Roman"
     font-style: italic;
     font-weight: bold;
@@ -43,7 +43,6 @@ ul.social li {
 }
 
 .author {
-    text-align: center;
     margin-top: -50px;
     font-size: 20px;
     color: #bbb;
@@ -58,4 +57,6 @@ ul.social li {
     text-align: right;
     position-absolute: 0 0 0 0;
     font-size: 10px;
+    font-weight: bold;
+    color: #d94839;
 }
