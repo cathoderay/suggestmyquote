@@ -601,5 +601,6 @@ quotes = [
     ("He has Van Gogh's ear for music.", "Billy Wilder"),
     ("I liked your opera. I think I will set it to music.", "Beethoven to a fellow composer"),
     ("That's not writing; That's typing.", "Truman Capote on Jack Kerouac"),
+    ("If I'd listened to customers, I'd have given them a faster horse.", "Henry Ford"),
 ]
 
