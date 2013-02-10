@@ -13,8 +13,7 @@ def get_random():
 
 @never_cache
 def home(request):
-    id = get_random()
-    return redirect('/quote/%d' % id)
+    return redirect('/quote/%d' % get_random())
 
 
 def quote(request, id):
